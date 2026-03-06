@@ -1,0 +1,137 @@
+HEFESTO
+Atributos:
+Lentidão, Imunidade ao fogo
+
+Passiva 1: Forja
+Ferramentas e armaduras craftadas usando metal por hefesto tem atributos melhorados e são indestrutíveis
+
+Passiva 2: O Deus do fogo
+Cura quando pegando fogo ou em lava
+
+Arma 1: Martelo de Hefesto
+Hit -> fogo (se marcado pela tenaz) ou knockback e mais dano (se não marcado)
+Use* -> Adiciona a tag "presente de hefetso" a uma peça de armadura do alvo (tornando-a indestrutível), se já tiver uma peça marcada, stuna o alvo
+Use* -> Constrói um automato a partir da estrutura de metal a frente (golem de ferro de tamanhos e cores diferentes dependendo do metal)
+
+Arma 2: Tenaz de Hefesto
+Hit -> slow e marca ou desmarca
+Use -> Puxa oponente a frente
+
+Poder 1: Lava instável
+Use -> envia um jato de fogo que deixa lava ao aterrissar
+
+Poder 2: Absorver calor
+Use -> congela toda lava em um raio de 15 blocos em pedra e pedregulho, cura meio coração para cada bloco de lava absorvido
+
+Habilidade Suprema: Vulcão
+Causa dano em uma area ao redor do alvo
+Começa a subir uma coluna de lava que vai se petrificando nas pontas formando um vulcão
+Todos os inimigos no raio do vulcão sofrem slow e queimaduras
+
+DEMETER
+Atributos:
+Velocidade na grama (ou em vegetação qualquer)
+
+Passiva: Colheita
+Alimentos colhidos (ou fabricados através de itens naturais, como o pão) por demeter dão efeito de regeneração
+
+Arma: Cetro da Fertilidade
+Hit: Se em terreno fértil (terra, grama, etc) dá curto slow, se em terreno infértil dá mais dano
+Use: Efeito de bone meal ao redor e cura própria e de aliados
+
+Poder 1: Raízes reforçadas
+Use -> Cresce raízes que predem o inimigo no lugar (teias de aranha com textura)
+
+Poder 2: Hera venenosa
+Use -> Gera um campo de arbustos que aplicam veneno a inimigos que entrarem em contato
+
+Habilidade Suprema: Terra arrasada
+Elimina toda a grama e pequenas vegetações ao redor
+Transforma todas as comidas no inventário da equipe inimiga em variantes podres
+Perde a resistência e velocidade passiva
+Ganha mais dano no ataque principal 
+O efeito de uso do cetro cura apenas a si mesmo e causa dano ao redor 
+
+
+POSEIDON
+Atributos: 
+Respiração aquatica, velocidade de nado, visão debaixo da agua
+
+Passiva: O Terceiro Reino
+Quando em mar aberto, Poseidon possui atributos melhorados (resistência)
+
+Arma: Tridente
+Hit -> Ao acertar um hit causa dano em área ao redor
+Use -> Lança o tridente, recebe "Movimento da Maré" no lugar em que o tridente estava
+
+Poder 0: Movimento da Maré
+Use (r) -> Puxa o tridente de volta
+Use (l) -> Vai até o tridente causando dano
+
+Poder 1: Terremoto (Na superfície)
+Use -> Causa knockup em área ao redor e dano constante 
+
+Poder 1: Maremoto (Na água)
+Use -> Nada para frente e gera uma onda ao redor que segue o mivimento do nado por 5s (Causa Dano ao acertar um alvo)
+
+Poder 2: Patrulhar (na agua)
+Use (r) -> Convoca o golfinho mais próximo para perto de si
+Use (l) -> Ordena ao golfinho mais próximo que nade até (10m d)o inimigo mais próximo no mar (se nenhum em uma area de 500m o golfinho apenas gira)
+
+Poder 2: Patrulhar (na superfície)
+Use (r) -> Invoca seu cavalo (com bons atributos) (ou teleporta o cavalo se ele já existir)
+Use (l) -> Ordena que seu cavalo ataque o inimigo mais próximo ao chegar causa dano e desaparece
+
+Habilidade Suprema: O Inundação
+Começa uma tempestade
+Gera poças de água (temporárias?) esporádicas pela superfície
+Recebe os bonus de "O Terceiro Reino" mesmo fora do mar
+Os ataques em área causam lentidão
+
+
+HADES
+Atributos:
+Resistência ao fogo
+
+Passiva: O Segundo Reino
+Spawna no nether, e tem atributos melhores (velocidade) no nether, não é atacado por nenhum morto-vivo ou monstro do nether
+
+Arma: Bidente
+Hit -> Lento mas causa dano massivo 
+Use -> Dash curto e dano
+
+Poder 1: Elmo da invisibilidade
+Use -> Fica completamente invisível, o próximo golpe do bidente causa mais dano
+
+Poder 2: Julgamento
+Hit -> Golpeia causando dano (recebe Sentença)
+
+Poder 2: Sentença
+Use (r) -> Causa slow e recebe movespeed
+Use (l) -> Causa dano com base na vida perdida
+
+Habilidade Suprema: Rapto (apenas no nether)
+Teleporta a si mesmo a ao alvo para o nether
+Se eliminar o alvo em menos de 5s recarrega a habilidade
+
+
+ZEUS
+Atributos:
+Imune a dano de queda
+
+Passiva: O primeiro reino
+Quando fora da superfície por tempo o suficiente todas as habilidades causam dano extra
+
+Arma: Relâmpago mestre
+Hit: Ataca rapidamente o alvo, e passando para os alvos próximos
+Use: Lança o relâmpago, criando um raio no alvo atingido
+
+Poder 1: Flutuar
+Use -> Alça voo e ativa a função de voo
+
+Poder 2: Discarga
+Use -> Conjura um raio nos lugares que os relampagos foram laçados recentemente
+
+Habilidade Suprema: Relâmpago mestre
+Lança um raio poderoso que destoi TUDO em Seu Caminho
+
