@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{tenaz_de_hefesto:true}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mineclash:powers/hefesto/teste_grab"
+    }
+}
