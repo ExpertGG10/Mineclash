@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{martelo_de_hefesto:true}",
+                "minecraft:item_name": "'Martelo de Hefesto'",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "epic",
+                "minecraft:max_stack_size": 1,
+                "minecraft:use_cooldown": {
+                  "seconds": 15,
+                  "cooldown_group": "martelo_de_hefesto"
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "animation": "brush",
+                  "sound": "minecraft:block.anvil.use",
+                  "has_consume_particles": false
+                }
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
