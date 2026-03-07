@@ -1,11 +1,11 @@
 {
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:consume_item",
+            "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": "{tenaz_de_hefesto:true}"
+                        "minecraft:custom_data": "{tenaz_de_hefesto:1b}"
                     }
                 }
             }

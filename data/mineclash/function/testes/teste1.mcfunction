@@ -1,1 +1,1 @@
-summon iron_golem ~ ~ ~ {Tags:["automato"], attributes:[{id:"scale", base:0.3}]}
+summon iron_golem ~ ~ ~ {Tags:["automato"], attributes:[{id:"scale", base:0.4}]}
