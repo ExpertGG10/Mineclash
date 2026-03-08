@@ -10,17 +10,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": "{abrorver_calor:true}",
+                "minecraft:custom_data": "{absorver_calor:true}",
                 "minecraft:item_name": "'Chupada'",
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:rarity": "epic",
                 "minecraft:max_stack_size": 1,
                 "minecraft:use_cooldown": {
-                  "seconds": 45,
-                  "cooldown_group": "abrorver_calor"
+                  "seconds": 10,
+                  "cooldown_group": "absorver_calor"
                 },
                 "minecraft:consumable": {
-                  "consume_seconds": 0.1,
+                  "consume_seconds": 0.01,
                   "animation": "none",
                   "sound": "minecraft:block.lava.ambient",
                   "has_consume_particles": false

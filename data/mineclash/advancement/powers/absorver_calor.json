@@ -5,13 +5,13 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": "{lava_instavel:1b}"
+                        "minecraft:custom_data": "{absorver_calor:1b}"
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "mineclash:powers/hefesto/lava_instavel"
+        "function": "mineclash:powers/hefesto/absorver_calor"
     }
 }
