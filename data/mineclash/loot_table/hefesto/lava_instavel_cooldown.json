@@ -5,24 +5,24 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:shears",
+          "name": "minecraft:fire_charge",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": "{tenaz_de_hefesto:true}",
-                "minecraft:item_name": "'Tenaz de Hefesto'",
+                "minecraft:custom_data": "{lava_instavel:true}",
+                "minecraft:item_name": "'Mijada'",
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:rarity": "epic",
                 "minecraft:max_stack_size": 1,
                 "minecraft:use_cooldown": {
                   "seconds": 15,
-                  "cooldown_group": "tenaz_de_hefesto"
+                  "cooldown_group": "lava_instavel"
                 },
                 "minecraft:consumable": {
-                  "consume_seconds": 2147483647,
-                  "animation": "bow",
-                  "sound": "minecraft:block.iron_door.open",
+                  "consume_seconds": 0.2,
+                  "animation": "none",
+                  "sound": "minecraft:block.lava.ambient",
                   "has_consume_particles": false
                 }
               }

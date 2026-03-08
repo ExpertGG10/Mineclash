@@ -10,17 +10,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": "{jato_de_lava:true}",
+                "minecraft:custom_data": "{lava_instavel:true}",
                 "minecraft:item_name": "'Mijada'",
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:rarity": "epic",
                 "minecraft:max_stack_size": 1,
                 "minecraft:use_cooldown": {
-                  "seconds": 45,
-                  "cooldown_group": "jato_de_lava"
+                  "seconds": 0.001,
+                  "cooldown_group": "lava_instavel"
                 },
                 "minecraft:consumable": {
-                  "consume_seconds": 3,
+                  "consume_seconds": 0.2,
                   "animation": "none",
                   "sound": "minecraft:block.lava.ambient",
                   "has_consume_particles": false
