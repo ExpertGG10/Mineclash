@@ -20,7 +20,7 @@
                   "cooldown_group": "absorver_calor"
                 },
                 "minecraft:consumable": {
-                  "consume_seconds": 0.01,
+                  "consume_seconds": 0.2,
                   "animation": "none",
                   "sound": "minecraft:block.lava.ambient",
                   "has_consume_particles": false
