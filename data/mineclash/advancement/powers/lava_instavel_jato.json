@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{lava_instavel:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mineclash:powers/hefesto/lava_instavel_jato"
+    }
+}

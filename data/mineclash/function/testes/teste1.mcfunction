@@ -1,0 +1,1 @@
+data get entity @e[type=!player,tag=projectile,limit=1]
