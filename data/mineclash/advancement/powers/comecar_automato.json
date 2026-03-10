@@ -1,7 +1,7 @@
 {
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:consume_item",
+            "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {
                     "predicates": {
@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "mineclash:powers/hefesto/teste_gerar_automato"
+        "function": "mineclash:powers/hefesto/comecar_automato"
     }
 }

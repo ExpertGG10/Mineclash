@@ -1,7 +1,10 @@
 tag @s add hefesto
+team add hefesto
+team join hefesto @s
 scoreboard objectives add usos_lava dummy
-scoreboard objectives add tamanho_automato dummy
+scoreboard objectives add tempo_automato dummy
 scoreboard objectives add ferros dummy
+scoreboard objectives add maximo dummy
 scoreboard objectives add automato_speed dummy
 scoreboard objectives add automato_damage dummy
 scoreboard objectives add automato_health dummy

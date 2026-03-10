@@ -1,7 +1,7 @@
 advancement revoke @s only mineclash:powers/lava_instavel_jato
-summon snowball ~ ~ ~ {Tags:["projectile", "jato_de_lava"],Silent:1b,Invulnerable:1b,data:{}}
+summon snowball ~ ~ ~ {Tags:["projectile", "jato_de_lava"],Silent:1b,Invulnerable:1b,data:{},HasVisualFire:1b}
 # Use player rotation to create an area_effect_cloud of about 0 0 and immediately copy the position of this entity into the projectile motion tag.
-execute rotated as @s positioned 0.0 0.0 0.0 positioned ^ ^0.3 ^1 summon minecraft:area_effect_cloud run data modify entity @e[tag=projectile,limit=1] Motion set from entity @s Pos
+execute rotated as @s positioned 0.0 0.0 0.0 positioned ^ ^0.1 ^0.8 summon minecraft:area_effect_cloud run data modify entity @e[tag=projectile,limit=1] Motion set from entity @s Pos
 
 # Remove projectile tag
 tag @e[tag=projectile] remove projectile
