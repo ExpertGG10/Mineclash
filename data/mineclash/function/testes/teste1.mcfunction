@@ -1,1 +1,4 @@
-data get entity @e[type=!player,tag=projectile,limit=1]
+scoreboard objectives add automato_speed dummy
+scoreboard objectives add automato_damage dummy
+scoreboard objectives add automato_health dummy
+scoreboard objectives add automato_scale dummy

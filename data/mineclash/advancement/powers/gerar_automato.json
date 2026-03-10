@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{martelo_de_hefesto:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mineclash:powers/hefesto/comecar_automato"
+    }
+}

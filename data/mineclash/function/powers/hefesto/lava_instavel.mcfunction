@@ -1,6 +1,6 @@
 advancement revoke @s only mineclash:powers/lava_instavel
 scoreboard players add @s usos_lava 1
-summon endermite ~ ~ ~ {Tags:["projectile","futura_lava", "jato_de_lava"],active_effects:[{id:"invisibility",duration:999,show_particles:0b}],Silent:1b,Team:"todos"}
+summon arrow ~ ~ ~ {Tags:["projectile","futura_lava", "jato_de_lava"],Silent:1b,HasVisualFire:1b}
 # Use player rotation to create an area_effect_cloud of about 0 0 and immediately copy the position of this entity into the projectile motion tag.
 execute rotated as @s positioned 0.0 0.0 0.0 positioned ^ ^0.3 ^1 summon minecraft:area_effect_cloud run data modify entity @e[tag=projectile,limit=1] Motion set from entity @s Pos
 
