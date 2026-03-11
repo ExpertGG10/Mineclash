@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:fire_charge",
+          "name": "minecraft:clock",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -24,7 +24,8 @@
                   "animation": "none",
                   "sound": "minecraft:block.lava.ambient",
                   "has_consume_particles": false
-                }
+                },
+                "item_model": "minecraft:blaze_powder"
               }
             }
           ]

@@ -5,12 +5,11 @@ scoreboard objectives add usos_lava dummy
 scoreboard objectives add tempo_automato dummy
 scoreboard objectives add ferros dummy
 scoreboard objectives add maximo dummy
-scoreboard objectives add automato_speed dummy
 scoreboard objectives add automato_damage dummy
 scoreboard objectives add automato_health dummy
 scoreboard objectives add automato_scale dummy
 attribute @s max_health base set 60
-attribute @s movement_speed base set 0.08
+attribute @s movement_speed base set 0.07
 attribute @s knockback_resistance base set 0.5
 attribute @s scale base set 1.3
 effect give @s minecraft:fire_resistance 99999 0 true
