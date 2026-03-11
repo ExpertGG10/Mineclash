@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "mineclash:powers/hefesto/lava_instavel_jato"
+        "function": "mineclash:powers/hefesto/lava_instavel/lava_instavel_jato"
     }
 }

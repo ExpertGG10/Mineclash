@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "mineclash:powers/hefesto/gerar_automato"
+        "function": "mineclash:powers/hefesto/gerar_automato/gerar_automato"
     }
 }

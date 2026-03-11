@@ -68,7 +68,7 @@ execute if score @p[tag=hefesto] ferros matches 62 run scoreboard players set @p
 execute if score @p[tag=hefesto] ferros matches 63 run scoreboard players set @p[tag=hefesto] automato_scale 398
 execute if score @p[tag=hefesto] ferros matches 64 run scoreboard players set @p[tag=hefesto] automato_scale 400
 execute store result storage mineclash:automato scale double 0.01 run scoreboard players get @p[tag=hefesto] automato_scale
-execute as @p[tag=hefesto] at @p[tag=hefesto] run function mineclash:powers/hefesto/automato with storage mineclash:automato
+execute as @p[tag=hefesto] at @p[tag=hefesto] run function mineclash:powers/hefesto/gerar_automato/automato with storage mineclash:automato
 scoreboard players set @p[tag=hefesto] ferros 0
 data modify storage mineclash:automato ferros set value 0
 scoreboard players set @p[tag=hefesto] maximo 0

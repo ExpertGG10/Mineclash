@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "mineclash:powers/hefesto/absorver_calor"
+        "function": "mineclash:powers/hefesto/absorver_calor/absorver_calor"
     }
 }
