@@ -1,0 +1,1 @@
+tp @s @e[type=birch_boat, limit=1, sort=nearest]

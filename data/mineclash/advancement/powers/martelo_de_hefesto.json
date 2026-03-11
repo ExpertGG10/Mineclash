@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.mainhand": {
+                  "count": {
+                    "min": 1
+                  },
+                  "predicates": {
+                    "minecraft:custom_data": "{martelo_de_hefesto:true}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mineclash:powers/hefesto/martelo_de_hefesto/martelo_hit"
+  }
+}

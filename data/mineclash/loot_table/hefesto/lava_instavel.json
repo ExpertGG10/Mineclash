@@ -16,7 +16,7 @@
                 "minecraft:rarity": "epic",
                 "minecraft:max_stack_size": 1,
                 "minecraft:use_cooldown": {
-                  "seconds": 0.001,
+                  "seconds": 0.01,
                   "cooldown_group": "lava_instavel"
                 },
                 "minecraft:consumable": {
