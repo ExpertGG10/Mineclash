@@ -16,13 +16,13 @@
                 "minecraft:rarity": "epic",
                 "minecraft:max_stack_size": 1,
                 "minecraft:use_cooldown": {
-                  "seconds": 15,
+                  "seconds": 5,
                   "cooldown_group": "tenaz_de_hefesto"
                 },
                 "minecraft:consumable": {
-                  "consume_seconds": 2147483647,
+                  "consume_seconds": 0.1,
                   "animation": "bow",
-                  "sound": "minecraft:block.iron_door.open",
+                  "sound": "minecraft:block.iron_trapdoor.open",
                   "has_consume_particles": false
                 }
               }

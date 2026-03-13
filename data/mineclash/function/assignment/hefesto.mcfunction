@@ -8,6 +8,7 @@ scoreboard objectives add maximo dummy
 scoreboard objectives add automato_damage dummy
 scoreboard objectives add automato_health dummy
 scoreboard objectives add automato_scale dummy
+scoreboard objectives add grab_alcance dummy
 attribute @s max_health base set 60
 attribute @s movement_speed base set 0.07
 attribute @s jump_strength base set 0.33

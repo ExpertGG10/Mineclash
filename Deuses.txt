@@ -122,9 +122,9 @@ Imune a dano de queda
 Passiva: O primeiro reino
 Quando fora da superfície por tempo o suficiente todas as habilidades causam dano extra
 
-Arma: Relâmpago mestre
+Arma: Relâmpago
 Hit: Ataca rapidamente o alvo, e passando para os alvos próximos
-Use: Lança o relâmpago, criando um raio no alvo atingido
+Use: Lança o relâmpago, causando dano e deixando um relâmpago no chão
 
 Poder 1: Flutuar
 Use -> Alça voo e ativa a função de voo
