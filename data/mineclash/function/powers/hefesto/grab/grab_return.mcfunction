@@ -1,4 +1,5 @@
 execute as @p[tag=hefesto] run scoreboard players set @s grab_alcance 0
+execute as @e[tag=grab,limit=1,sort=nearest] at @e[tag=grab,limit=1,sort=nearest] run tag @e[tag=!hefesto,distance=..1,tag=!grab,tag=!grabado] add grabado
 tp @e[tag=grabado] @e[tag=grab,limit=1,sort=nearest]
 execute as @e[tag=grab,limit=1,sort=nearest] at @e[tag=grab,limit=1,sort=nearest] positioned ~ ~-2 ~ if entity @p[tag=hefesto, distance=..1] run tag @e[tag=grabado] remove grabado
 execute as @e[tag=grab,limit=1,sort=nearest] at @e[tag=grab,limit=1,sort=nearest] positioned ~ ~-2 ~ if entity @p[tag=hefesto, distance=..1] run item replace entity @s weapon.mainhand with air

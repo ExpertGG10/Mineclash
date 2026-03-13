@@ -1,1 +1,1 @@
-tp @s @e[type=birch_boat, limit=1, sort=nearest]
+summon cow ~ ~ ~ {attributes:[{id:max_health,base:200}]}
